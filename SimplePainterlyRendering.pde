@@ -2,12 +2,7 @@
  * Simple implementation of te painterly rendering
  * algorithm introduced by Hertzmann.
  *
- * This implementation only renders one layer of brushs. 
- * Uses the output as input for a new bruh width.
- *
  * http://www.mrl.nyu.edu/publications/painterly98/hertzmann-siggraph98.pdf
- * University of Constance-
- * Department for Computergraphics
  *
  * @author Thomas Lindemeier
  * @date 25.10.2012
