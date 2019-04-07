@@ -1,8 +1,4 @@
 /**
- * 
- *
- * University of Constance-
- * Department for Computergraphics
  *
  * @author Thomas Lindemeier
  * @date 28.10.2012
