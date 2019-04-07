@@ -26,10 +26,10 @@ PGraphics canvas; // offscreen buffer, used to render strokes
 PImage colorDistance; // the difference between canvas and source
 PImage render; // image to render in the window
 
-int[] brushRadii = new int[] {32, 32, 32, 16, 16, 8, 8, 8, 5, 5, 5}; // used brushes
+int[] brushRadii = new int[] {32, 32, 32, 16, 16, 8, 8, 8, 5, 5, 5, 3, 3}; // used brushes
 int brushIndex = -1;
 int brushRadius = -1; // the radius of the brush 
-final int areaError = 30; // the error threshold for the grid cells
+final int areaError = 20; // the error threshold for the grid cells
 final float FC = 0.5; // weight factor of the current direction vector used to integrate stroke
 final int maxLength = 32; // max number of points in a stroke
 final int minLength = 6;
@@ -300,5 +300,5 @@ void keyPressed()
   if (key == '2') render = canvas;
   if (key == '3') render = colorDistance;
   if (key == '4') render = blurred;
-  if (key == 's') canvas.save("result.jpg");
+  if (key == 's') canvas.save("data/result.jpg");
 }
